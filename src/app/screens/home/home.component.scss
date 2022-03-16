@@ -1,0 +1,22 @@
+.home-container {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template: 
+    "header" 10vh
+    "container"
+    "footer" 10vh;
+}
+
+app-top-bar {
+    grid-area: header;
+}
+
+app-footer {
+    grid-area: footer;
+}
+
+.container {
+    grid-area: container;
+    background-color:green;
+}
