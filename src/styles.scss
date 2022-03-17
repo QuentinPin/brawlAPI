@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "Nougat";
+    src: url("assets/fonts/Nougat-ExtraBlack.ttf") format("ttf"),
+}
+
 body {
     margin: 0;
+    font-family: 'Nougat', Arial, sans-serif;
 }
